@@ -6,3 +6,9 @@ Examples palindrome("abba") === true
 palindrome("abcdefg") === false
 
 */
+
+//Solution 1:
+function palindrome(str) {
+    const reversed = str.split('').reverse().join('');
+    return str === reversed;
+}
