@@ -8,7 +8,8 @@ reverse('hello') === 'olleh'
 reverse('Greetings!') === '!sgniteerG'
 */
 
-//Tip: The reverse() method reverses an array in place. 
+//Tip: The reverse() method reverses an array in place.
+//Tip: Reduce helper
 
 //Solution 1
 
@@ -38,3 +39,13 @@ function reverse(str) {
 }
 
 //Solution 3 (Array Helper)
+
+function reverse(str) {
+    return str.split('').reduce((reversed, character) => {
+        return character + reversed;
+    }, '');
+}
+
+function reverse(str) {
+    return str.split('').reduce((rev, char) => char + rev, '');
+}
