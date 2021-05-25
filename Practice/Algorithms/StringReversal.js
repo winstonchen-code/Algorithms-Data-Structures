@@ -27,7 +27,14 @@ function reverse(str) {
 //Solution 2 (For Loop)
 
 function reverse(str) {
-    const arr = str.split('');
+    let reversed = '';
+
+    // for (var i = 0; i < str.length; i++)
+    for (let character of str) {
+        reversed = character + reversed;
+    }
+
+    return reversed;
 }
 
 //Solution 3 (Array Helper)
