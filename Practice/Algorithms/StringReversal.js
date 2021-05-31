@@ -46,6 +46,8 @@ function reverse(str) {
     }, '');
 }
 
+//Clean up of Solution 3
+
 function reverse(str) {
     return str.split('').reduce((rev, char) => char + rev, '');
 }
