@@ -13,6 +13,7 @@ maxChat("apple 1231111") === "1"
 //Does the given string have any repeated characters in it?
 
 //Solution 1
+
 function maxChar(str) {
     const charMap = {};
     let max = 0;
