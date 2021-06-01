@@ -9,6 +9,8 @@ capitalize('a lazy fox') --> 'A Lazy Fox'
 capital('look, it is working!') --> 'Look, It Is Working!' 
 */
 
+//Tip: Slice method that belongs to all strings
+
 //Solution 1
 
 function capitalize(str) {
@@ -18,7 +20,7 @@ function capitalize(str) {
         words.push(word[0].toUpperCase() + word.splice(1));
     }
 
-    words.join(' ')
+    return words.join(' ')
 }
 
 //Solution 2
