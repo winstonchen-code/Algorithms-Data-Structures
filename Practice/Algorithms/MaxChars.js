@@ -4,7 +4,7 @@ Given a string, return the character that is most commonly used in the string.
 
 --- Examples
 maxChar("abcccccccd") === "c"
-maxChat("apple 1231111") === "1"
+maxChar("apple 1231111") === "1"
 */
 
 //Common String Questions:
