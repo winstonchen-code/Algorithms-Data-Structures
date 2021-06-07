@@ -14,3 +14,9 @@ function flattenArray(arrays) {
         return a.cacat(b);
     });    
 } 
+
+//Solution 2
+
+function flattenArray(arrays) {
+    return [].concat(arrays);
+}
