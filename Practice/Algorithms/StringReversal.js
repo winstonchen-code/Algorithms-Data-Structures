@@ -19,6 +19,8 @@ function reverse(str) {
     return arr.join('');
 }
 
+
+
 //Clean up of Solution 1
 
 function reverse(str) {
